@@ -1,4 +1,5 @@
 import { Body, Controller, Get, Post, Query, Req, Res } from '@nestjs/common';
+import { badRequestResponse } from 'src/utils/response';
 import { UserDto } from './user.dto';
 import { UserService } from './user.service';
 
@@ -10,8 +11,12 @@ export class UserController {
   async create(
     @Body() body: UserDto
   ){
-    const newUser = await this.userService.create(body);
+    try {
+      const newUser = await this.userService.create(body);
 
-    return newUser;
+      return newUser; 
+    } catch (error) {
+      throw badRequestResponse(error.message);
+    }
   }
 }

@@ -1,6 +1,5 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
-import { Currency } from '../enum/currency.enum';
 
 export type UserDocument = User & Document;
 
