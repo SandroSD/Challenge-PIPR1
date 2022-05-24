@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Camas",
+        "items": [
+            {
+                "name": "Simple",
+                "img": "https://www.abelenda.com.uy/wp-content/uploads/2018/08/puerta-con-masonite-lustrado.jpg"
+            },
+            {
+                "name": "Queen",
+                "img": "https://www.abelenda.com.uy/wp-content/uploads/2018/08/Templo-Ingl%C3%A9s1.jpg"
+            },
+            {
+                "name": "King",
+                "img": "https://www.abelenda.com.uy/wp-content/uploads/2018/08/masonite-pintado-1.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Sillones",
+        "items": [
+            {
+                "name": "2 cuerpos",
+                "img": "https://s.fenicio.app/f/div/catalogo/articulos/237348002_0_460x460_1591931701_6f6.jpg"
+            },
+            {
+                "name": "3 cuerpos",
+                "img": "https://www.glsillones.com/wp-content/uploads/2018/09/sillon-cubo-con-funda.jpg"
+            },
+            {
+                "name": "Otros",
+                "img": "https://i.pinimg.com/originals/9c/55/a6/9c55a625ac796033ca4724f286d65108.jpg"
+            }
+        ]
+    }
+]

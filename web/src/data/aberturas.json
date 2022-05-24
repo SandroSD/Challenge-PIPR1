@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Puertas",
+        "items": [
+            {
+                "name": "Madera",
+                "img": "https://www.abelenda.com.uy/wp-content/uploads/2018/08/puerta-con-masonite-lustrado.jpg"
+            },
+            {
+                "name": "Templo Ingles",
+                "img": "https://www.abelenda.com.uy/wp-content/uploads/2018/08/Templo-Ingl%C3%A9s1.jpg"
+            },
+            {
+                "name": "Blanca",
+                "img": "https://www.abelenda.com.uy/wp-content/uploads/2018/08/masonite-pintado-1.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Ventanas",
+        "items": [
+            {
+                "name": "Ventanal",
+                "img": "https://midecoracion.com/wp-content/uploads/2019/02/diseno-ventanas-casa-768x432.jpg"
+            },
+            {
+                "name": "Cortinas",
+                "img": "https://midecoracion.com/wp-content/uploads/2018/10/ventanas-aislar-ruido.jpg"
+            },
+            {
+                "name": "Exterior",
+                "img": "https://midecoracion.com/wp-content/uploads/2017/11/ventanas-de-aluminio-1024x535.jpg"
+            }
+        ]
+    }
+]

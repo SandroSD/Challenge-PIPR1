@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pisos",
+        "items": [
+            {
+                "name": "Ceramica",
+                "img": "https://mx.habcdn.com/photos/business/medium/image-177935.jpg"
+            },
+            {
+                "name": "Porcelanato",
+                "img": "https://www.tucsonsa.com/images/portfolio/portfolio1.jpg"
+            },
+            {
+                "name": "Madera",
+                "img": "https://www.construarte.com.ve/wp-content/uploads/2017/08/revestimientos-para-pisos.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Revestimientos",
+        "items": [
+            {
+                "name": "Amarillo",
+                "img": "https://casa-web.com.ar/wp-content/uploads/2011/10/piedra-formatiada-natural-para-revestimientos-tanto-para-interiores-como-exteriores_11.jpg"
+            },
+            {
+                "name": "Piedra",
+                "img": "https://i.pinimg.com/originals/04/c3/10/04c3100d61b8f839e9542ae5ae028ebc.png"
+            }
+        ]
+    }
+]
