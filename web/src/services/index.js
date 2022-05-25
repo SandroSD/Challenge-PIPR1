@@ -2,6 +2,16 @@ import dataAberturas from '../data/aberturas.json';
 import dataEquipamiento from '../data/equipamiento.json';
 import dataTerminaciones from '../data/terminaciones.json';
 
+/**
+ * Al intentar hacer la llamada con axios, salian problemas con los CORS.
+ * Intenté solucionarlo pero desde el front no tenia muchas alternativas,
+ * por lo que no pude hacer los llamados como deberían ser.
+ * Deje una alternativa de todas maneras bajando la información manualmente
+ * y en base a la categoría clickeada muestro en pantalla lo deseado.
+ * Las fotos tal vez no las puedas ver todas porque un día
+ * se veían y otro día aparecía como que ya no estaban mas alojadas en la url que
+ * tenían.
+ */
 class DataServices {
     async data(categoria) {
         try {
