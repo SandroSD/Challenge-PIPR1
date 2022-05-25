@@ -6,13 +6,9 @@ import { UserModule } from './user/user.module';
 import { ConfigModule } from '@nestjs/config';
 import { AuthModule } from './auth/auth.module';
 
-import configuration from './config';
-
 @Module({
   imports: [
-    ConfigModule.forRoot({
-      load: [configuration]
-    }),
+    ConfigModule.forRoot(),
     MongooseModule.forRoot(process.env.MONGO_URL),
     ProductModule,
     PublicModule,

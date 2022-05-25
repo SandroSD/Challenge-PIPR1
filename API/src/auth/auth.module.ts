@@ -5,14 +5,16 @@ import { LocalStrategy } from "./local.strategy";
 import { JwtModule } from "@nestjs/jwt";
 import { UserModule } from "src/user/user.module";
 import { JwtStrategy } from "./jwt.strategy";
+import { ConfigModule, ConfigService } from "@nestjs/config";
 
 @Module({
     imports: [
+        ConfigModule.forRoot(),
         UserModule,
         PassportModule,
         JwtModule.register({
-            secret: "tokensecretoparaloginrandom",
-            signOptions: { expiresIn: 180000 }
+            secret: process.env.TOKEN_SECRETO,
+            signOptions: { expiresIn: process.env.EXPIRES_IN }
         })
     ],
     providers: [AuthService, LocalStrategy, JwtStrategy],
